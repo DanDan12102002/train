@@ -259,3 +259,31 @@ form .controls input {
 .font-64 {
   font-size: 4em;
 }
+body header {
+  padding: 25px 0;
+}
+body header .row {
+  justify-content: space-between;
+  align-items: center;
+}
+body header .menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body header .menu li {
+  font-size: 1.563em;
+  font-family: "Roboto";
+  color: #333333;
+  line-height: 1.36;
+  text-align: center;
+  cursor: pointer;
+  transition: .3s;
+}
+body header .menu li:hover {
+  color: #000;
+}
+* img {
+  max-width: 100%;
+}
