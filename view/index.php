@@ -5,6 +5,15 @@
 	</head>
 	<body>
 		<div class="wrapper">
+			<header>
+				<div class="row">
+					<div class="col-4">
+						<div class="logo">
+							<a href="/"><img src="../assets/images/" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</header>
 			
 		</div>
 		
