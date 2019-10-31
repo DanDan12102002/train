@@ -284,6 +284,10 @@ body header .menu li {
 body header .menu li:hover {
   color: #000;
 }
+body .banner {
+  background: url('../images/banner.png') no-repeat center center;
+  height: 860px;
+}
 * img {
   max-width: 100%;
 }
