@@ -1,10 +1,4 @@
 <?php
-/*
-	Сайт построен и работает на базе движка CL9 System ( нескольких библиотек, взятых с 
-	фреймворка F3: https://fatfreeframework.com/ и надстройки от автора Colin990 )
-	
-	Руководство и подробности на сайте: https://lpe.colin990.com/
-*/
 
 # Main F3 Framework Object
 $f3 = require_once('app/core/Base.php');
@@ -27,16 +21,16 @@ $CL9 = new CL9();
 # META для социалок и продвижения
 
 # Название сайта
-$f3->set('META.sitename','CL9 System');
+$f3->set('META.sitename','Train Work');
 
 # Заголовок
-$f3->set('META.title','CL9 Landing Page Engine');
+$f3->set('META.title', 'Train Work');
 
 # Описание
-$f3->set('META.desc','Система для создания Landing Page');
+$f3->set('META.desc', 'Train Work');
 
 # Ключевые слова
-$f3->set('META.keys','Landing, Engine, Framework, System');
+$f3->set('META.keys', 'Train Work');
 
 # Картинка для соц. сетей, размер: 1200x630px
 $f3->set('META.image', $f3->get('BASEURL').'/assets/images/social.jpg');
